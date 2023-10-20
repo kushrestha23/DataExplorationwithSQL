@@ -1,7 +1,5 @@
-/*
-Query that includes the replacement cost, the total count of DVDs with that replacement cost, the total revenue generated 
-from rentals of those DVDs, and the average revenue per DVD
-*/
+/* Query that includes the replacement cost, the total count of DVDs with that replacement cost, the total revenue generated 
+from rentals of those DVDs, and the average revenue per DVD */
 
 SELECT REPLACEMENT_COST,
 	COUNT(*) AS TOTAL_COUNT,

@@ -1,6 +1,4 @@
-/* 
-DVDs that have been frequently replaced due to loss or damage
-*/
+/* DVDs that have been frequently replaced due to loss or damage */
 SELECT F.FILM_ID,
 	F.TITLE,
 	COUNT(R.RENTAL_ID) AS REPLACEMENT_COUNT

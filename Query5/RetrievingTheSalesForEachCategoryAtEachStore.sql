@@ -1,6 +1,4 @@
-/*
-Retrieving the sales for each category at each store
-*/
+/* Retrieving the sales for each category at each store */
 SELECT S.STORE_ID,
     C.NAME AS CATEGORY_NAME,
     SUM(P.AMOUNT) AS CATEGORY_SALES
