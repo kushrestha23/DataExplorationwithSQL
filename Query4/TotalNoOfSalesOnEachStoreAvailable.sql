@@ -1,6 +1,4 @@
-/*
-Total number of sales on each store available
-*/
+/* Total number of sales on each store available */
 
 WITH STORESALES AS
 	(SELECT S.STORE_ID,
